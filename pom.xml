@@ -62,18 +62,18 @@ API.
 	<inceptionYear>2006</inceptionYear>
 	<build>
 		<plugins>
-			<plugin>
+	<!-- 		<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
+				<artifactId>maven-compiler-plugin</artifactId> -->
 				<!--<version>2.0</version>-->
-				<configuration>
+	<!--			<configuration>
 					<source>1.5</source>
 					<target>1.5</target>
 					<debug>true</debug>
 					<fork>true</fork>
 					<executable>${env.JAVA5_HOME}/bin/javac</executable>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		      <plugin>
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-resources-plugin</artifactId>
@@ -302,7 +302,7 @@ API.
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- 
+		<!--
 		<dependency>
 		    <groupId>jasperreports</groupId>
 		    <artifactId>jasperreports</artifactId>
@@ -494,7 +494,6 @@ API.
 
 	</dependencies>
 
-<!--
     <repositories>
         <repository>
             <id>fdvsPublicRepo</id>
@@ -503,7 +502,6 @@ API.
             <layout>default</layout>
         </repository>
     </repositories>
--->
 	<distributionManagement>
 
 	</distributionManagement>
